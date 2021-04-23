@@ -99,7 +99,7 @@ li {
 #about-section {
     height: 100vh fit-content;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: auto;
     margin: 0 5px 0 5px;
     z-index: -50;
