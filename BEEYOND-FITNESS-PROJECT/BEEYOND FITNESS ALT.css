@@ -97,7 +97,7 @@ li {
 }
 
 #about-section {
-    height: 100vh fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     width: auto;
