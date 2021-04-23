@@ -43,7 +43,7 @@
 }
 
 .logo-img {
-    background-image: url(/Users/daniel/Downloads/attachments/Images/400dpiLogo.png);
+    background-image: url(https://github.com/danjwilko/danjwilko.github.io/blob/master/BEEYOND-FITNESS-PROJECT/Images/400dpiLogo.png?raw=true);
     margin: 0 auto 0px auto;
     width: 1000px;
     height: 600px;
@@ -224,7 +224,7 @@ li {
 
 .logo{
     padding: 2em 0;
-  background-image: url(/Users/daniel/Downloads/attachments/Images/SmallLogo.png);
+  background-image: url(https://github.com/danjwilko/danjwilko.github.io/blob/master/BEEYOND-FITNESS-PROJECT/Images/SmallLogo.png?raw=true);
   background-repeat: no-repeat;
   margin: 0 auto 0px auto;
   width: 1000px;
