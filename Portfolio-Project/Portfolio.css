@@ -99,9 +99,14 @@ li {
   margin-top: 10px;
   margin-left: 20px;
 }
-#introduction-text:hover {
-  transition: ease-in 2s;
-  color: #00d5ff;
+#introduction-text {
+margin: 20px;
+-webkit-transition: color 1.8s; /* For Safari 3.0 to 6.0 */
+transition: color 1.5s; /* For modern Browsers */
+}
+#introduction-text:hover{
+color: #00d5ff;
+cursor: pointer;
 }
 #welcome-section {
   display: flex;
