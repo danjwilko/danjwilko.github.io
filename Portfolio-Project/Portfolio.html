@@ -1,4 +1,18 @@
 <!DOCTYPE html>
+<link
+rel="stylesheet"
+href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+crossorigin="anonymous"
+/>
+<link
+href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+rel="stylesheet"
+/>
+<link
+href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+rel="stylesheet"
+/>
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="Portfolio.css">
@@ -13,34 +27,38 @@
           <nav id="navbar">
             <ul id="navbar-list">
               <li>
+                <a class="navbar-link" href="#welcome-section">Home</a>
+              </li>
+              <li>
                 <a class="navbar-link" href="#about-me">About me</a>
               </li>
               <li>
-                <a class="navbar-link" href="#my-portfolio">My portfolio</a>
+                <a class="navbar-link" href="#projects">My portfolio</a>
               </li>
               <li>
-                <a class="navbar-link" href="#contacts-section">Contact</a>
+                <a class="navbar-link" href="#contact">Contact me</a>
               </li>
             </ul>
           </nav>
-         
-
-        
+         <!-- end of nav bar-->
           <!-- Intro welcome-->
         
-          <div id="introduction-element">
+          <div id="welcome-section">
             <h1 id="main-header">Hello and Welcome!</h1>
-            <h3 id="introduction-text">My name is Daniel</h3>
+            <h2 id="introduction-text"> My name is Daniel
+            <br>
+            <i>I'm a web developer</i></h2>
           </div>
           <!--About me section-->
           <div id="about-section">
             <div id="about-me">
-              <h1 class="about-header">Hello, I'm Daniel, I am a web developer in the making!</h1>
+              <h2 class="about-header">A little bit about me!</h2>
               <div class="about-text">
-        
-                I have a wide range of experience from the military to mechanical engineering and customer service.
-                <p>
-                  I started the Freecodecamp curriculum early on in 2020, after considering a career switch for some time. which I thoroughly enjoyed the process of learning and it helped rekindle my interest in web design and development, thus at the age of 30, I took the plunge back into education and started a Computing and IT degree with the Open University the same year. Both to stand me in good stead but also to fulfill a life time ambition.</p>
+                <p> I have a wide range of experience from my time in the military to mechanical engineering and customer service. Meaning im fairly adaptable to any situation.</p>
+                <br>
+                  <p>I started the Freecodecamp curriculum early on in 2020, after considering a career switch for some time. I thoroughly enjoyed the process of learning and it helped rekindle my interest in web design and development.</p>
+                  <br>
+                  <p>Thus at the age of 30, I took the plunge back into education and started a Computing and IT degree with the Open University the same year. Both to stand me in good stead but also to fulfill a life time ambition.</p>
                 <br>
                 <p>
                   Im comitted to learning and gaining experience and through continued study and practise become a well established web developer.</p>
@@ -51,30 +69,77 @@
             </div>
           </div>
 
-          <!-- Portfolio Section
-        
-        <section id="projects" class="blue-bg">
-				<div class="margin">
-					<h2>Projects</h2>
-					<hr class="line" />
-					<div class="project-container">
-						<div class="project-tile">
-							<img
-								class="project-image"-->
+          <!-- End of about section-->
 
-            <section id="portfolio-section" class="my-portfolio">
-                <div class="portfolio-header">
-                 <h1>My portfolio</h1>
-                </div>
-              <div class="portfolio-container">
-                    <div class="portfolio-tile">
-                      <img class="project-image" src="https://lh3.googleusercontent.com/e-PAXqkBqP70gGCc87zL1E8dFWeNKJfBHx4ihpxkxUgZqJAhi1NYj6gmvtEeSQXiXZFrfx5LC1rgEsulJaWIboBIUOYUnDts_FYSREOl8aStblcXw_vbojH5YBPLjzewb0wUmapVyjE=w2400" alt="BEEYOND FITNESS LANDING PAGE">
-                      <a href="http://danjwilko.github.io/BEEYOND-FITNESS-PROJECT/Beeyond-fitness-alternative"
-                      target="_blank" class="project-link"></a>
-                </div>
-                    </div>  
-                </section>
-                
+          <!-- Portfolio Section -->
+        
+          <section id="projects" class="projects-section">
+            <h2 class="projects-section-header">My projects</h2>
+          
+            <div class="projects-grid">
+              <a
+                href="https://danjwilko.github.io/BEEYOND-FITNESS-PROJECT/Beeyond-fitness-alternative"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://lh3.googleusercontent.com/e-PAXqkBqP70gGCc87zL1E8dFWeNKJfBHx4ihpxkxUgZqJAhi1NYj6gmvtEeSQXiXZFrfx5LC1rgEsulJaWIboBIUOYUnDts_FYSREOl8aStblcXw_vbojH5YBPLjzewb0wUmapVyjE=w2400"
+                  alt="project"
+                />
+                  <figcaption>Business page</figcaption>
+              </a>
+             
+                <a
+                href="http://danjwilko.github.io/TRIBUTE-PAGE-PROJECT/index.html"
+                target="_blank"
+                class="project project-tile"
+              >
+                <img
+                  class="project-image"
+                  src="https://photos.app.goo.gl/9YDtH2JjCTJQsGQ56"
+                  alt="project"
+                />
+                <figcaption>Tribute page</figcaption>
+              </a>
+            </div>
+              </section>
+
+
+          <!-- End of Projects-->
+
+
+          <!-- Contact section-->
+
+
+          <section id="contact" class="contact-section">
+            <div class="contact-section-header">
+              <h2>Let's work together...</h2>
+              <h3> I look forward to hearing from you</h3>
+              <p></p>
+            </div>
+            <div class="contact-links">
+              <a
+                id="profile-link"
+                href="https://github.com/danjwilko"
+                target="_blank"
+                class="btn contact-details"
+                ><i class="fab fa-github"></i> My GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/daniel-wilkinson-4b1b1685/"
+                target="_blank"
+                class="btn contact-details"
+                ><i class="fab fa-linkedin"></i> Linkedin</a
+              >
+              <a href="danielwilkinson0991@gmail.com" class="btn contact-details"
+                ><i class="fas fa-at"></i> Email me</a
+              >
+              <a href="tel:07903898688" class="btn contact-details"
+                ><i class="fas fa-mobile-alt"></i> Call me</a
+              >
+            </div>
+          </section>
         </body>
         <footer id="footer">
           <div class="footer-text">
