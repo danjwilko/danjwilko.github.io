@@ -263,6 +263,6 @@ cursor: pointer;
   padding-top: 20px;
 }
 .project:hover {
-  transform: translateY(8px);
+  transform: scale(1.1);
   cursor: pointer;
 }
