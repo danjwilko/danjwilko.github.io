@@ -275,13 +275,13 @@ li {
 .contact_info a{
 text-decoration: none;
 color: #ffde01;
-font-size: 14px;
+font-size: 16px;
 font-style: italic;
 margin: 0px 20px;
 
 }
 .contact_info a i{
-    margin: 0 25px;
+    margin: 0px 25px;
     color: #fff;
 }
 .form-wrapper {
@@ -295,29 +295,31 @@ margin: 0px 20px;
 }
 .form-wrapper .form-text {
     text-align: left;
-    color: #fff;
-    font-size: 16px;
+    color: rgb(29, 8, 148);
+    font-size: 18px;
     font-style: italic;
     text-transform: capitalize;
 }
 .form-wrapper .form-text h2{
+    margin: 20px;
     text-align: center;
-    font-size: 20px;
+    font-size: 28px;
+    text-shadow: 1px 1px 1px black;
     text-transform: uppercase;
 
 }
 .fields form input{
     outline: none;
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 2px solid white;
     padding-left: 10px;
     margin: 0 10px;
-    color: #fff;
+    color: #5804fa;
     height: 45px;
     vertical-align: middle;
 }
 .fields form input::placeholder{
-    color: rgba(255,255,255,0.5);
+    color: rgba(13, 5, 126, 0.5);
     font-style: italic;
 }
 
