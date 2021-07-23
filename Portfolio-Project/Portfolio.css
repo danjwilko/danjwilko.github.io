@@ -303,7 +303,7 @@ cursor: pointer;
 .contact-details:hover {
   transform: translateY(8px);
 }
-#footer {
+#page-footer {
   display: relative;
   width: 100%;
   height: 80px;
