@@ -176,6 +176,7 @@ cursor: pointer;
   background: transparent;
   box-shadow: 3px 3px 4px black;
   border-radius: 20px;
+  transition: transform 0.3s ease-out;
 }
 .project-image {
   height: auto;
@@ -261,4 +262,7 @@ cursor: pointer;
   text-align: left;
   padding-top: 20px;
 }
-
+.project:hover {
+  transform: translateY(8px);
+  cursor: pointer;
+}
