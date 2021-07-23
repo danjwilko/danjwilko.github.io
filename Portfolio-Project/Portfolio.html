@@ -1,209 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <head>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<link
-rel="stylesheet"
-href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-crossorigin="anonymous"
-/>
-<link
-href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
-rel="stylesheet"
-/>
-<link
-href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
-rel="stylesheet"
-/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="Portfolio.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="Portfolio.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
 </head>
-        <body>
-        
-          <!-- Navbar added -->
-        
-          <nav id="navbar">
-            <ul id="navbar-list">
-              <li>
-                <a class="navbar-link" href="#welcome-section">Home</a>
-              </li>
-              <li>
-                <a class="navbar-link" href="#about-me">About me</a>
-              </li>
-              <li>
-                <a class="navbar-link" href="#projects">My portfolio</a>
-              </li>
-              <li>
-                <a class="navbar-link" href="#contact">Contact me</a>
-              </li>
-            </ul>
-          </nav>
-          <nav id="float-nav">
-            <ul id="fn-list">
-            <li>
-                  <a
-                    id="profilelinks"
-                    href="https://github.com/danjwilko"
-                    target="_blank"
-                    class="btn contact-details"
-                    ><i class="fab fa-github"></i></a> </li>
-                  <li>
-                  <a
-                    href="https://www.linkedin.com/in/daniel-wilkinson-4b1b1685/"
-                    target="_blank"
-                    class="btn contact-details"
-                    ><i class="fab fa-linkedin"></i></a>
-                  
-                </li>
-                <li>
-                  <a href="danielwilkinson0991@gmail.com" class="btn contact-details"
-                    ><i class="fas fa-at"></i></a>
-                  
-                </li>
-                  <li>
-                  <a href="tel:07903898688" class="btn contact-details"
-                    ><i class="fas fa-mobile-alt"></i></a>
-                  
-            </li>
-          </ul>
-          </nav>
-         <!-- end of nav bar-->
-          <!-- Intro welcome-->
-        
-          <div id="welcome-section">
-            <div id="shadowBox">
-            <h1 id="main-header" class="animate">Hello and Welcome!</h1>
-          </div>
-            <h2 id="introduction-text"> My name is Daniel
-            <br>
-            <i>I'm a web developer</i></h2>
-          </div>
-          <!--About me section-->
-          <div id="about-section">
-            <div id="about-me">
-              <h2 class="about-header">A little bit about me!</h2>
-              <div class="about-text">
-                <p> I have a wide range of experience over the years, from my time in the military to mechanical engineering and customer service roles. Meaning I'm fairly adaptable to any situation and often just knuckle down and get the job done.<br>
-                  I've always had an interest in technology and have been a avid follower over the years of different developments, but followed a different path.
-                </p>
-                <br>
-                Soooo....
-                <br>
-                  <p>I started the Freecodecamp curriculum early on in 2020, after considering a career switch for some time. I thoroughly enjoyed the process of learning and it helped rekindle my interest in web design and development.</p>
-                  <br>
-                  <p>Thus at the age of 30, I took the plunge back into education and started a Computing and IT degree with the Open University the same year. Both to stand me in good stead but also to fulfill a life time ambition.</p>
-                <br>
-                <p>
-                  I'm comitted to learning and gaining experience, which through continued study and practice, I aim to become a well established web designer/developer.</p>
-                <br>
-                <p>
-                  At current I use HTML and CSS, to build responsive web pages and applications, with the intent of broadening my experience with Javascript and Jquery going forward.</p>
-                  <br>
-                  <p>
-                    I'm also no stranger to different OS's either, I currently work on and use Linux, OSX and Windows.
-                    </p>
-                    <br>
-                    <p>
-                    My claim to fame is obtaining 2 A* for Art and Design and Art and Design Fine Art, at GCSE level from only taking one option did double the amount of work required haha, as far as i know I'm still the only student at my school to do so. So I tend to have natural affintiy for art and design.
 
-                  </p>
-              </div>
-            </div>
-          </div>
+<body>
 
-          <!-- End of about section-->
+  <!-- Navbar added -->
 
-          <!-- Portfolio Section -->
-        
-          <section id="projects" class="projects-section">
-            <h2 class="projects-section-header">My projects</h2>
-            <div class="projects-grid">
-              <a
-                href="https://danjwilko.github.io/BEEYOND-FITNESS-PROJECT/Beeyond-fitness-alternative"
-                target="_blank"
-                class="project project-tile"
-              >
-                <img
-                  class="project-image"
-                  src="https://lh3.googleusercontent.com/l-aGRmNxAs_Q-EUwX2RAVaswT1mvpRu1mNcZHGc4uM8_gTJhamMTjW6UDpqeFVlKKtr1nbzPwv1i4UbjSUfKdr_fY5lSPo8zh10WRD8_stulK23ZPZvvVXDSgXvwSUaRgbOVRJi3gCg=w2400"
-                  alt="project"
-                />
-                  <h4>Business website</h4>
-              </a>
-             
-                <a
-                href="http://danjwilko.github.io/TRIBUTE-PAGE-PROJECT/index.html"
-                target="_blank"
-                class="project project-tile"
-              >
-                <img
-                  class="project-image"
-                  src="https://lh3.googleusercontent.com/esQnCa4ToAV_qPrXiuGck64qLZ5MoL8rUiiXmJSN_N3Q4x-wk2y4i5NqdIuYaM5n60md3Rr94ggGDaIQdZgGzmSQy9FRt-SbvGvBuhoB3hJAXd5J3QqEYnw8i5cb8Krc43Srj8H3Hwg=w2400"
-                  alt="project"
-                />
-                <h4>Tribute page</h4>
-              </a>
-            
-            <a
-                href="http://danjwilko.github.io/FORM-PROJECT/index.html"
-                target="_blank"
-                class="project project-tile"
-              >
-                <img
-                  class="project-image"
-                  src="https://lh3.googleusercontent.com/il233RILmFy0TpmBtT7gwwF71q-gxRed7ZZxwdQIYVgJbUhSVQdH4Sq6-1tgMKTsl1Gx0orhJ4YQs1IiRMkv5UMXsf1p5pFf7kLHkefSW8H9rCGNSrPzPR6JSQl-Zp1jJytLxGvcuOw=w2400"
-                  alt="project"
-                />
-                <h4>Survey Form</h4>
-              </a>
-            </div>
-              </section>
+  <nav id="navbar">
+    <ul id="navbar-list">
+      <li>
+        <a class="navbar-link" href="#welcome-section">Home</a>
+      </li>
+      <li>
+        <a class="navbar-link" href="#about-me">About me</a>
+      </li>
+      <li>
+        <a class="navbar-link" href="#projects">My portfolio</a>
+      </li>
+      <li>
+        <a class="navbar-link" href="#contact">Contact me</a>
+      </li>
+    </ul>
+  </nav>
+  <nav id="float-nav">
+    <ul id="fn-list">
+      <li>
+        <a id="profilelinks" href="https://github.com/danjwilko" target="_blank" class="btn contact-details"><i class="fab fa-github"></i></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/daniel-wilkinson-4b1b1685/" target="_blank" class="btn contact-details"><i class="fab fa-linkedin"></i></a>
 
+      </li>
+      <li>
+        <a href="danielwilkinson0991@gmail.com" class="btn contact-details"><i class="fas fa-at"></i></a>
 
-          <!-- End of Projects-->
+      </li>
+      <li>
+        <a href="tel:07903898688" class="btn contact-details"><i class="fas fa-mobile-alt"></i></a>
 
+      </li>
+    </ul>
+  </nav>
+  <!-- end of nav bar-->
+  <!-- Intro welcome-->
 
-          <!-- Contact section-->
+  <div id="welcome-section">
+    <div id="shadowBox">
+      <h1 id="main-header" class="animate">Hello and Welcome!</h1>
+    </div>
+    <h2 id="introduction-text" class="intro-style"> My name is Daniel
+      <br>
+      <i>I'm a web developer</i>
+    </h2>
+  </div>
+  <!--About me section-->
+  <div id="about-section">
+    <div id="about-me">
+      <h2 class="about-header">A little bit about me!</h2>
+      <div class="about-text">
+        <p> I have a wide range of experience over the years, from my time in the military to mechanical engineering and customer service roles. Meaning I'm fairly adaptable to any situation and often just knuckle down and get the job done.</p>
+        <p>
+          I've always had an interest in technology and have been a avid follower over the years of different developments, but followed a different path.
+        </p>
+        <p>I started the Freecodecamp curriculum early on in 2020, after considering a career switch for some time. I thoroughly enjoyed the process of learning and it helped rekindle my interest in web design and development.</p>
+        <p>Thus at the age of 30, I took the plunge back into education and started a Computing and IT degree with the Open University the same year. Both to stand me in good stead but also to fulfill a life time ambition.</p>
+        <p>
+          I'm comitted to learning and gaining experience, which through continued study and practice, I aim to become a well established web designer/developer.</p>
+        <p>
+          At current I use HTML and CSS, to build responsive web pages and applications, with the intent of broadening my experience with Javascript and Jquery going forward.</p>
+        <p>
+          I'm also no stranger to different OS's either, I currently work on and use Linux, OSX and Windows.
+        </p>
+        <p>
+          My claim to fame is obtaining 2 A* for Art and Design and Art and Design Fine Art, at GCSE level from only taking one option did double the amount of work required haha, as far as i know I'm still the only student at my school to do so. So I tend to have natural affintiy for art and design.
 
+        </p>
+      </div>
+    </div>
+  </div>
 
-          <section id="contact" class="contact-section">
-            <div class="contact-section-header">
-              <script src="Portfolio.js"></script>
-              <h2 id="work">Let's work <span id="emphasis">together...</span></h2>
-              <h3> I look forward to hearing from you</h3>
-              <p></p>
-            </div>
-            <div class="contact-links">
-              <a
-                id="profile-link"
-                href="https://github.com/danjwilko"
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fab fa-github"></i> My GitHub</a
-              >
-              <a
-                href="https://www.linkedin.com/in/daniel-wilkinson-4b1b1685/"
-                target="_blank"
-                class="btn contact-details"
-                ><i class="fab fa-linkedin"></i> Linkedin</a
-              >
-              <a href="danielwilkinson0991@gmail.com" class="btn contact-details"
-                ><i class="fas fa-at"></i> Email me</a
-              >
-              <a href="tel:07903898688" class="btn contact-details"
-                ><i class="fas fa-mobile-alt"></i> Call me</a
-              >
-            </div>
-          </section>
-          <footer id="ftr">
-            <div class="footer-text">
-                <p>&copy; Copyright 2021 Daniel Wilkinson</p>
-            </div>
-      </footer>
-        </body>
+  <!-- End of about section-->
+
+  <!-- Portfolio Section -->
+
+  <section id="projects" class="projects-section">
+    <h2 class="projects-section-header">My projects</h2>
+    <div class="projects-grid">
+      <a href="https://danjwilko.github.io/BEEYOND-FITNESS-PROJECT/Beeyond-fitness-alternative" target="_blank" class="project project-tile">
+        <img class="project-image" src="https://lh3.googleusercontent.com/l-aGRmNxAs_Q-EUwX2RAVaswT1mvpRu1mNcZHGc4uM8_gTJhamMTjW6UDpqeFVlKKtr1nbzPwv1i4UbjSUfKdr_fY5lSPo8zh10WRD8_stulK23ZPZvvVXDSgXvwSUaRgbOVRJi3gCg=w2400" alt="project" />
+        <h4>Business website</h4>
+      </a>
+
+      <a href="http://danjwilko.github.io/TRIBUTE-PAGE-PROJECT/index.html" target="_blank" class="project project-tile">
+        <img class="project-image" src="https://lh3.googleusercontent.com/esQnCa4ToAV_qPrXiuGck64qLZ5MoL8rUiiXmJSN_N3Q4x-wk2y4i5NqdIuYaM5n60md3Rr94ggGDaIQdZgGzmSQy9FRt-SbvGvBuhoB3hJAXd5J3QqEYnw8i5cb8Krc43Srj8H3Hwg=w2400" alt="project" />
+        <h4>Tribute page</h4>
+      </a>
+
+      <a href="http://danjwilko.github.io/FORM-PROJECT/index.html" target="_blank" class="project project-tile">
+        <img class="project-image" src="https://lh3.googleusercontent.com/il233RILmFy0TpmBtT7gwwF71q-gxRed7ZZxwdQIYVgJbUhSVQdH4Sq6-1tgMKTsl1Gx0orhJ4YQs1IiRMkv5UMXsf1p5pFf7kLHkefSW8H9rCGNSrPzPR6JSQl-Zp1jJytLxGvcuOw=w2400" alt="project" />
+        <h4>Survey Form</h4>
+      </a>
+    </div>
+  </section>
+
+  <!-- End of Projects-->
+
+  <!-- Contact section-->
+
+  <section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <script src="Portfolio.js"></script>
+      <h2 id="work">Let's work <span id="emphasis">together...</span></h2>
+      <h3> I look forward to hearing from you</h3>
+      <p></p>
+    </div>
+    <div class="contact-links">
+      <a id="profile-link" href="https://github.com/danjwilko" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> My GitHub</a>
+      <a href="https://www.linkedin.com/in/daniel-wilkinson-4b1b1685/" target="_blank" class="btn contact-details"><i class="fab fa-linkedin"></i> Linkedin</a>
+      <a href="danielwilkinson0991@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Email me</a>
+      <a href="tel:07903898688" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+    </div>
+  </section>
+  <footer id="ftr">
+    <div class="footer-text">
+      <p>&copy; Copyright 2021 Daniel Wilkinson</p>
+    </div>
+  </footer>
+</body>
+
 </html>
-
