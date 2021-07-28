@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Input</title>
+</head>
+
+<body>
+    <form action="process.php">
+        <!-- Text -->
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" value="John doe">
+        </div>
+        <!-- email -->
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter an email">
+        </div>
+        <!-- Text area input -->
+        <div>
+            <label for="message">Message</label>
+            <textarea name="mesage" id="message" cols="50" rows="5"></textarea>
+        </div>
+        <!-- Select -->
+        <div>
+            <label for="sex"></label>
+            <select name="sex" id="sex"></select>
+            <option value="male">Male</option>
+            <option value="female" selected>Female</option>
+        </div>
+        <!-- number -->
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" name="age" id="age">
+        </div>
+        <!-- Date -->
+        <div>
+            <label for="birthdate">Birthdate</label><br>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <!-- Radio -->
+        <div>
+            <label for="membership">Membership</label>
+            <input type="radio" name="membership" value="simple" id="membership">Simple
+            <input type="radio" name="membership" value="standard" id="membership" checked>Standard
+            <input type="radio" name="membership" value="super" id="membership">Super
+        </div>
+        <!-- Checkbox -->
+        <div>
+            <label for="membership">Membership</label>
+            <input type="checkbox" name="likes" value="bike" id="likes">Bikes
+            <input type="checkbox" name="likes" value="car" id="likes">Car
+            <input type="checkbox" name="likes" value="boat" id="likes">Boat
+        </div>
+        <div>
+            <!-- Input Submit -->
+            <input type="submit" value="Submit">
+            <!-- Button Subit-->
+            <!-- <button type="submit">Submit</button> -->
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
