@@ -1,4 +1,5 @@
 #navbar {
+    position: relative;
     display: block;
     height: auto;
     width: 100%;
