@@ -1,0 +1,37 @@
+#navbar {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+#navbar .navbar-list{
+    position: relative;
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+}
+
+#navbar .navbar-list .navbar-link {
+    display: relative;
+    padding: 5px;
+}
+.header-background {
+    margin-top: 250px;
+    display: flex;
+}
+
+.header-background{ 
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}   
+
+#logo-container {
+
+
+margin-top: 100px;
+}
+.logo-img {
+    background-size: 500px 300px;
+}

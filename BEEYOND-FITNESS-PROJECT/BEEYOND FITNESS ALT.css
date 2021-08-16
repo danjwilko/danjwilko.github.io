@@ -23,34 +23,47 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-image: url(https://github.com/danjwilko/danjwilko.github.io/blob/master/BEEYOND-FITNESS-PROJECT/Images/couple_fitness.jpg?raw=true);
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.6);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    margin: 30px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
     z-index: -1;
+    max-width: 100%;
+    position: relative;
+
 }
 
 #logo-container {
-    margin-top: 250px;
-    max-width: none;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    margin-top:250px;
+    position: relative;
+    display: block;
     box-sizing: border-box;
+    height: 80%;
+    width: 80%;
 }
 
 .logo-img {
-    background-image: url(https://github.com/danjwilko/danjwilko.github.io/blob/master/BEEYOND-FITNESS-PROJECT/Images/400dpiLogo.png?raw=true);
-    margin: 0 auto 0px auto;
-    width: 1000px;
-    height: 600px;
+    background-image:url(https://github.com/danjwilko/danjwilko.github.io/blob/master/BEEYOND-FITNESS-PROJECT/Images/400dpiLogo.png?raw=true);
     background-size: 1000px 600px;
-    background-position: center;
+    background-position: center center;
     display: block;
-    z-index: 5;
+    max-width: 100%;
+    position: relative;
+   
+}
+@media(max-width: 1200px) {
+    .logo-img {
+    background-size: 900px 550px;
+    }
+}
+@media(max-width: 1000px) {
+    .logo-img {
+        background-size: 650px 400px;
+    }
 }
 
 #navbar {
@@ -64,7 +77,7 @@
     right: 0;
     box-shadow: 0 -2px 20px;
 }
-#navbar-list {
+.navbar-list {
     height: 50px;
     display: inline;
     display: flex;
@@ -95,117 +108,10 @@ li {
 .navbar-link:hover {
     transition: border-bottom 0.5s;
     border-bottom: 4px solid #00d5ff;
+    cursor: pointer;
 }
 
-#about-section {
-    height: 200vh;
-    display: relative;
-    width: auto;
-    margin: 0 5px 0 5px;
-    z-index: -50;
-    justify-content: center;
-}
-#About-us-title{
-    font-size: 50px;
-    font-family: sans-serif;
-    color: rgb(185, 129, 44);
-    position: top;
-    text-align: center;
-    font-weight: 350;
-    padding: 15px 5px;
 
-}
-#about-us {
-    z-index: -50;
-}
-
-.about-us-text {
-    line-height: 1.2em;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-left: 10px;
-    background-color: white;
-    border-radius: 50px;
-    border: solid transparent;
-    padding: 30px;
-    font-family: sans-serif;
-    font-size: 20px;
-    text-align: left;
-    box-shadow: 0 -2px 10px;
-    margin-bottom: 10px;
-}
-
-#meet-the-team {
-    display: relative;
-    margin-top: 10px;
-    width: auto;
-    height: 200px;
-    z-index: -10;
-    justify-content: center;
-    align-content: center;
-    margin: auto;
-
-}
-#Team {
-    font-family: sans-serif;
-    font-size: 50px;
-    color: rgb(185, 129, 44);
-    position: top;
-    text-align: center;
-    font-weight: 200;
-    padding: 10px;
-}
-#Image-container {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    z-index: -50;
-    
-}
-.member1 {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: 200px;
-    margin: 10px 20px 5px 20px;
-    border-radius: 20%;
-    box-shadow: 0 -2px 10px;
-}
-
-.member2 {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: 200px;
-    margin: 10px 20px 5px 20px;
-    border-radius: 20%;
-    box-shadow: 0 -2px 10px;
-}
-
-.member3 {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: 200px;
-    margin: 10px 20px 5px 20px;
-    border-radius: 20%;
-    box-shadow: 0 -2px 10px;
-}
-
-.img-caption {
-    margin: 20px;
-    width: 200px;
-    font-family: sans-serif;
-    font-size: 18px;
-    color: rgb(185, 129, 44);
-    text-align: center;
-    font-weight: 600;
-}
 .wrapper{
     z-index: -999;
     display: relative;
@@ -233,6 +139,7 @@ li {
 .container2 {
     width: 90%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .logo{
@@ -240,8 +147,6 @@ li {
   background-image: url(https://github.com/danjwilko/danjwilko.github.io/blob/master/BEEYOND-FITNESS-PROJECT/Images/SmallLogo.png?raw=true);
   background-repeat: no-repeat;
   margin: 0 auto 0px auto;
-  width: 1000px;
-  height: 200px;
   background-size: 250px 150px;
   background-position: center;
   display: block;
