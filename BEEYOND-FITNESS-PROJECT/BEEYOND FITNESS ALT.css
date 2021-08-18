@@ -143,7 +143,7 @@ li {
 }
 
 .logo{
-    padding: 2em 0;
+    padding: 5em 0;
   background-image: url(https://github.com/danjwilko/danjwilko.github.io/blob/master/BEEYOND-FITNESS-PROJECT/Images/SmallLogo.png?raw=true);
   background-repeat: no-repeat;
   margin: 0 auto 0px auto;
@@ -154,7 +154,7 @@ li {
 }
 
 .content {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -175,6 +175,7 @@ li {
 .contact_info {
     text-align: center;
     padding-bottom: 2em;
+    line-height: 1.6rem;
 }
 
 .contact_info a{

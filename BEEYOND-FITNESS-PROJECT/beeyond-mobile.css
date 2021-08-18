@@ -18,7 +18,6 @@
     padding: 5px;
 }
 .header-background {
-    margin-top: 250px;
     display: flex;
 }
 
@@ -34,5 +33,5 @@
 margin-top: 100px;
 }
 .logo-img {
-    background-size: 500px 300px;
+    background-size: 480px 280px;
 }
