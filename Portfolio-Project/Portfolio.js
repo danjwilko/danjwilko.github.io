@@ -12,4 +12,3 @@ function myFunction() {
     document.getElementById("emphasis").className = "";
   }
 }
-
